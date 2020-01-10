@@ -1,0 +1,28 @@
+
+language: node_js
+node_js: node
+
+branches:
+  only:
+    - master
+
+cache:
+  directories:
+    - node_modules
+    - public
+    - .cache
+
+before_script:
+  - npm i -g gatsby-cli
+  - npm install netlify-cli -g
+  - yarn
+
+script:
+  - travis_wait 30 gatsby build
+
+deploy:
+  provider: script
+  script: netlify deploy --site $NETLIFY_SITE_ID --auth $NETLIFY_ACCESS_TOKEN --prod --dir=public
+  skip_cleanup: true
+  on:
+    branch: master
