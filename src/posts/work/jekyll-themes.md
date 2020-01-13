@@ -16,15 +16,15 @@ Below are the Jekyll starters I've developed and open sourced. Each theme contai
 
 The basic setup for each of my themes is roughly the same:
 
-  1. Install [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), [remote theme](https://github.com/benbalter/jekyll-remote-theme), or fork the theme repository you'd like to use.
-  2. [Install Bundler](http://bundler.io) `gem install bundler` and run `bundle install` to install all dependencies (Jekyll, plugins, and so on).
-  3. Update `_config.yml`, data files (found in `_data`), and replace sample posts and pages with your own.
+1. Install [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes), [remote theme](https://github.com/benbalter/jekyll-remote-theme), or fork the theme repository you'd like to use.
+2. [Install Bundler](http://bundler.io) `gem install bundler` and run `bundle install` to install all dependencies (Jekyll, plugins, and so on).
+3. Update `_config.yml`, data files (found in `_data`), and replace sample posts and pages with your own.
 
 For more specifics, review each theme's documentation by clicking on the **setup guide** buttons below.
 
 ## [So Simple theme](/work/so-simple-jekyll-theme/)
 
-![So Simple Jekyll theme screenshot](../../images/jekyll-theme-so-simple-feature-2018.jpg)
+![So Simple Jekyll theme screenshot](../../images/jekyll-theme-so-simple-feature.jpg)
 
 So Simple is a simple Jekyll theme for your words and pictures. Features include:
 
@@ -66,13 +66,11 @@ Basically Basic is a [Jekyll theme](https://jekyllrb.com/docs/themes/) meant as 
 
 A flexible two-column Jekyll theme with a minimalist aesthetic.
 
-  - Available as a [gem-based theme](https://rubygems.org/gems/minimal-mistakes-jekyll) and remote theme.
-  - Compatible with GitHub Pages.
-  - Several layout options (single, archive, splash pages).
-  - SEO optimized with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data.
-  - Optional header images, sidebars, table of contents, galleries, related posts, breadcrumb links, and more.
-  - Optional comments ([Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Staticman](https://staticman.net/), and more).
-  - Optional analytics ([Google Analytics](https://www.google.com/analytics/) and custom).
+- Bundled as a "theme gem" for easier installation/upgrading.
+- Support for Jekyll's built-in Sass/SCSS preprocessor.
+- Nine different skins (color variations).
+- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
+- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), Google+, [Discourse](https://www.discourse.org/), static-based via [Staticman](https://staticman.net/), and [utterances](https://utteranc.es/)).
 
 <p>
   <a href="https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/" class="btn">Setup guide</a>
@@ -81,14 +79,14 @@ A flexible two-column Jekyll theme with a minimalist aesthetic.
 
 ## [HPSTR theme](/work/hpstr-jekyll-theme/)
 
-![HPSTR Jekyll theme screenshot](../../images/hpstr-preview-feature-2015.jpg)
+![HPSTR Jekyll theme screenshot](../../images/hpstr-preview-feature.jpg)
 
 A responsive Jekyll blog theme designed to give your site a modern and somewhat cliché feel.
 
-  - Compatible with GitHub Pages.
-  - Modern design with rounded rectangles and subtle gradients.
-  - Animated main menu.
-  - Built-in support for Sass and data files (requires Jekyll 2.x).
+- Compatible with GitHub Pages.
+- Modern design with rounded rectangles and subtle gradients.
+- Animated main menu.
+- Built-in support for Sass and data files (requires Jekyll 2.x).
 
 <p>
   <a href="https://mmistakes.github.io/jekyll-theme-hpstr/theme-setup/" class="btn">Setup guide</a>
@@ -101,11 +99,11 @@ A responsive Jekyll blog theme designed to give your site a modern and somewhat 
 
 A Jekyll starter based off of an older incarnation of Made Mistakes.
 
-  - Compatible with GitHub Pages.
-  - Built-in support for Sass and data files (requires Jekyll 2.x).
-  - Off canvas menu.
-  - Tile based archives.
-  - Optional table of contents, share links, Disqus comments modules, and more.
+- Compatible with GitHub Pages.
+- Built-in support for Sass and data files (requires Jekyll 2.x).
+- Off canvas menu.
+- Tile based archives.
+- Optional table of contents, share links, Disqus comments modules, and more.
 
 <p>
   <a href="https://mmistakes.github.io/jekyll-theme-skinny-bones/getting-started/" class="btn">Setup guide</a>
