@@ -21,6 +21,7 @@ body {
   background-color: var(--background-color);
   font-kerning: normal;
   word-wrap: break-word;
+  overscroll-behavior: none;
 }
 
 h1,
