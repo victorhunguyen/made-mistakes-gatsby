@@ -3,7 +3,7 @@ title: "Jekyll themes"
 path: /work/jekyll-themes/
 excerpt: "Open source Jekyll themes to help build a site or blog on GitHub Pages, Netlify, and more."
 date: 2017-03-30
-last_modified_at: 2018-11-27T09:44:26-05:00
+last_modified_at: 2020-01-13T16:02:39-05:00
 image: ../../images/jekyll-themes-feature.jpg
 categories: [work]
 tags: [Jekyll, web development, design, open source, GitHub]
@@ -26,7 +26,7 @@ For more specifics, review each theme's documentation by clicking on the **setup
 
 ![So Simple Jekyll theme screenshot](../../images/jekyll-theme-so-simple-feature.jpg)
 
-So Simple is a simple Jekyll theme for your words and pictures. Features include:
+So Simple is a Jekyll theme for your words and pictures. Features include:
 
 - Available as a [gem-based theme](https://rubygems.org/gems/jekyll-theme-so-simple) and remote theme.
 - Compatible with GitHub Pages.
