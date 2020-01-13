@@ -6,7 +6,7 @@ image: ../../images/relic-scout-feature.jpg
 date: 2017-04-19
 last_modified_at: 2019-12-10T16:51:32-05:00
 categories: [work]
-tags: [design]
+tags: [design, web development]
 published: true
 comments: false
 hide_meta: true

@@ -2,7 +2,7 @@
 title: "Jekyll themes"
 path: /work/jekyll-themes/
 excerpt: "Open source Jekyll themes to help build a site or blog on GitHub Pages, Netlify, and more."
-date: 2013-06-26
+date: 2017-03-30
 last_modified_at: 2018-11-27T09:44:26-05:00
 image: ../../images/jekyll-themes-feature.jpg
 categories: [work]

@@ -1,6 +1,6 @@
 ---
 title: "Basically Basic"
-date: 2017-03-30
+date: 2017-03-29
 path: /work/basically-basic-jekyll-theme/
 excerpt: "Your new Jekyll default theme."
 last_modified_at: 2019-02-19T10:05:55-05:00

@@ -1,7 +1,7 @@
 ---
 title: "Eko Wave"
 path: /work/eko-wave/
-date: 2018-03-05
+date: 2017-04-01
 last_modified_at: 2018-03-05T13:54:54-05:00
 excerpt: "Site design and creative for Eko Wave — a team specializing in niche applications."
 image: ../../images/eko-wave-feature.jpg
