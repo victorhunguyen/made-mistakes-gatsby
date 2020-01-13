@@ -38,7 +38,7 @@ module.exports = {
     feedUrl: site.feedUrl,
 
     // Site config
-    copyrights: `&copy; 2004&mdash;${new Date().getFullYear()} Michael Rose.`,
+    copyrights: `&copy; 2004&mdash;${new Date().getFullYear()} <a href="https://mademistakes.com/humans.txt">Michael Rose</a>.`,
     defaultTheme: 'light',
     postsPerPage: 10,
     menuMoreText: 'Menu',

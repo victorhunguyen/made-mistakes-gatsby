@@ -12,7 +12,5 @@ _  ________ ____   _  ______________  _________
   Built with:   Gatsby <https://www.gatsbyjs.org/>
                 Visual Studio Code <https://code.visualstudio.com/>
                 Adobe Creative Suite <https://www.adobe.com/>
-                SimpleIcon <https://www.flaticon.com/>
-                Noun Project <https://thenounproject.com/>
                 Travis CI <https://travis-ci.org/>
                 Netlify <https://www.netlify.com/>
