@@ -245,7 +245,7 @@ export const pageQuery = graphql`
         }
       }
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
+      limit: 3
     ) {
       edges {
         node {
