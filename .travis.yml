@@ -14,7 +14,7 @@ cache:
 
 before_script:
   - npm i -g gatsby-cli
-  - npm install netlify-cli -g
+  - npm i -g netlify-cli
   - yarn
 
 script:
