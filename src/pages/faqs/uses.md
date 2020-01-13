@@ -3,7 +3,7 @@ title: "What tech do you use?"
 excerpt: "A list detailing my developer setup, gear, software, and preferred configurations."
 path: /uses/
 date: 2016-08-26
-last_modified_at: 2020-01-09T14:25:19-05:00
+last_modified_at: 2020-01-13T09:56:34-05:00
 ---
 
 Read on friend to learn about the hardware and software I use for play and to build Made Mistakes. None of it is terribly exciting or unexpected, but hey --- maybe the curious of you will find it interesting.
@@ -55,7 +55,6 @@ If you're interested in the specifics of how the site is built I've made its [so
 - Continuous integration and deployment via [**Travis CI**][travis-ci].
 - Hosting and CDN via [**Netlify**][netlify].
 - Domain name registered with [**Hover**][hover].
-- Icons from [**SimpleIcon**][simpleicon] and [**Noun Project**][nounproject].
 
 <small>Page may contain affiliate and/or referral links. For more information read my <a href="/terms/#disclosure-policy">disclosure policy</a>.</small>
 
@@ -63,5 +62,3 @@ If you're interested in the specifics of how the site is built I've made its [so
 [netlify]: https://www.netlify.com/
 [cloudflare-ssl]: https://www.cloudflare.com/ssl/
 [hover]: https://hover.com/E4nZJYVH
-[simpleicon]: http://www.flaticon.com
-[nounproject]: https://thenounproject.com
