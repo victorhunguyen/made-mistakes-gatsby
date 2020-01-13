@@ -26,44 +26,46 @@ const Document = ({
     <article className={`${style.document} h-entry`}>
       <div className={style.title}>
         <h1 className={`${style.heading} p-name`}>{title}</h1>
-        <div className={style.meta} style={{ display: hideMeta && `none` }}>
-          <span>
-            {author && (
+        <div className={style.meta}>
+          <div style={{ display: hideMeta && `none` }}>
+            <span>
+              {author && (
+                <>
+                  {dateModified ? `Updated` : `Published`}{' '}
+                  <span style={{ display: 'none' }}>
+                    by{' '}
+                    <a className="p-author h-card" href={author.url}>
+                      {author.name}
+                    </a>
+                  </span>
+                </>
+              )}
+              {datePublished && (
+                <span style={{ display: dateModified && `none` }}>
+                  {' '}
+                  <time className="dt-published" dateTime={datePublished}>
+                    {dateFromNow}
+                  </time>
+                </span>
+              )}
+              {dateModified && (
+                <>
+                  {' '}
+                  <time className="dt-updated" dateTime={dateModified}>
+                    {dateModifiedFromNow}
+                  </time>
+                </>
+              )}
+            </span>
+            {timeToRead && (
               <>
-                {dateModified ? `Updated` : `Published`}{' '}
-                <span style={{ display: 'none' }}>
-                  by{' '}
-                  <a className="p-author h-card" href={author.url}>
-                    {author.name}
-                  </a>
+                {' '}
+                <span className={style.readTime}>
+                  {timeToRead}&nbsp;min&nbsp;read
                 </span>
               </>
             )}
-            {datePublished && (
-              <span style={{ display: dateModified && `none` }}>
-                {' '}
-                <time className="dt-published" dateTime={datePublished}>
-                  {dateFromNow}
-                </time>
-              </span>
-            )}
-            {dateModified && (
-              <>
-                {' '}
-                <time className="dt-updated" dateTime={dateModified}>
-                  {dateModifiedFromNow}
-                </time>
-              </>
-            )}
-          </span>
-          {timeToRead && (
-            <>
-              {' '}
-              <span className={style.readTime}>
-                {timeToRead}&nbsp;min&nbsp;read
-              </span>
-            </>
-          )}
+          </div>
           {tags ? (
             <div className={style.tags}>
               {tags.map(tag => (
