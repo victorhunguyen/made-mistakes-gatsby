@@ -3,8 +3,8 @@ title: "HPSTR"
 date: 2013-08-26
 last_modified_at: 2020-01-06T10:03:33-05:00
 path: /work/hpstr-jekyll-theme/
-excerpt: "Jekyll blog theme designed to give your site a modern look."
-image: ../../images/hpstr-preview-feature-2015.jpg
+excerpt: "Jekyll blog theme designed to give your site a tumble-log look."
+image: ../../images/hpstr-preview-feature.jpg
 categories: [work]
 tags: [Jekyll, web development, design, open source, GitHub]
 work: "Design & Development"

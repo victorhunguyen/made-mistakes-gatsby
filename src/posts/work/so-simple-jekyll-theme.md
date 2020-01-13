@@ -3,8 +3,8 @@ title: "So Simple"
 date: 2013-06-26
 path: /work/so-simple-jekyll-theme/
 excerpt: "A simple Jekyll theme for words and pictures."
-last_modified_at: 2018-02-06T11:16:06-05:00
-image: ../../images/jekyll-theme-so-simple-feature-2018.jpg
+last_modified_at: 2020-01-13T15:48:32-05:00
+image: ../../images/jekyll-theme-so-simple-feature.jpg
 categories: [work]
 tags: [Jekyll, web development, design, open source, GitHub]
 work: "Design & Development"
@@ -16,11 +16,9 @@ breadcrumbs:
 comments: false
 hide_meta: true
 toc: true
-support: true
-order: 10
 ---
 
-After having so much fun creating and releasing [my first open source Jekyll theme](https://mmistakes.github.io/minimal-mistakes), I figured I'd go at it again. So here be the fruit of that effort --- I call it [**So Simple**](https://mmistakes.github.io/so-simple-theme), a simple Jekyll theme for words and pictures. 
+After having so much fun creating and releasing [my first open source Jekyll theme](https://mmistakes.github.io/minimal-mistakes), I figured I'd go at it again. So here be the fruit of that effort --- I call it [**So Simple**](https://mmistakes.github.io/so-simple-theme), a Jekyll theme for words and pictures. 
 
 - A variety of layouts with clean and readable typography.
 - [Microformats](http://microformats.org/wiki/microformats2) markup to make post content machine-readable and discoverable.
@@ -32,11 +30,17 @@ After having so much fun creating and releasing [my first open source Jekyll the
   <a href="https://mmistakes.github.io/so-simple-theme/" class="btn">Live preview</a>
 </p>
 
-![post layout example](../../images/so-simple-post.png)
+<div class="browser-frame">
+  <img src="../../images/so-simple-post-layout-hero.jpg" alt="So Simple post layout with hero image">
+</div>
 
-![list of posts layout example](../../images/so-simple-posts.png)
+<div class="browser-frame">
+  <img src="../../images/so-simple-posts-list-layout.jpg" alt="So Simple posts list layout">
+</div>
 
-![search layout example](../../images/so-simple-search.png)
+<div class="browser-frame">
+  <img src="../../images/so-simple-tags-list-layout.jpg" alt="So Simple tags list layout">
+</div>
 
 ## Usage
 
