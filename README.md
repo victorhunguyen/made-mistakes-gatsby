@@ -220,8 +220,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-Made Mistakes incorporates icons from [The Noun Project](https://thenounproject.com/).
-Icons are distributed under Creative Commons Attribution 3.0 United States (CC BY 3.0 US).
-Home by Mahmure Alp from the Noun Project
-
 Made Mistakes incorporates photographs from [Unsplash](https://unsplash.com).
