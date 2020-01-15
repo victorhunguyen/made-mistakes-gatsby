@@ -18,7 +18,7 @@
     width: 100%;
     order: 100;
     opacity: 1;
-    overflow-x: scroll;
+    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     transition: 0.25s ease;
   }
