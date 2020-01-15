@@ -191,10 +191,11 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(var(--grid-list-exp-size), 1fr));
     grid-column-gap: var(--grid-list-exp-col-gap);
-    grid-row-gap: var(--grid-list-exp-col-gap);
+    grid-row-gap: 2rem;
     margin-bottom: var(--grid-list-exp-col-gap);
 
     @media (--medium-up) {
+      grid-row-gap: var(--grid-list-exp-col-gap);
       margin-left: 0;
       margin-right: 0;
     }
