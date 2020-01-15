@@ -62,7 +62,7 @@ const Menu = ({
         >
           <div className={style.themeToggleInner}>
             <div className={style.themeToggleIcon} />
-            <div className="sr-only">Toggle dark mode</div>
+            <div className={style.themeToggleLabel}>Toggle dark mode</div>
           </div>
         </button>
       </div>
