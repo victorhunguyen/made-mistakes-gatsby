@@ -41,7 +41,6 @@ module.exports = {
     copyrights: `Copyright &copy; 2004&mdash;${new Date().getFullYear()} <a href="https://mademistakes.com/humans.txt">Michael Rose</a>. Some Rights Reserved.<br />Built with <a href="https://www.gatsbyjs.org/">GatsbyJS</a> and hosted on <a href="https://www.netlify.com/">Netlify</a>.`,
     defaultTheme: 'light',
     postsPerPage: 10,
-    menuMoreText: 'Menu',
     mainMenu: [
       {
         title: 'Articles',

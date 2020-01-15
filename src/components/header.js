@@ -9,12 +9,11 @@ import Menu from './menu'
 import style from '../styles/header.module.css'
 
 const Header = props => {
-  const { siteTitle, mainMenu, menuMoreText, defaultTheme } = props
+  const { siteTitle, mainMenu, defaultTheme } = props
   const defaultThemeState =
     (typeof window !== 'undefined' && window.localStorage.getItem('theme')) ||
     null
   const [userTheme, changeTheme] = useState(defaultThemeState)
-  const [isMenuVisible, toggleMenu] = useState(false)
   const onChangeTheme = () => {
     const alternateTheme =
       (userTheme || defaultTheme) === 'light' ? 'dark' : 'light'
@@ -24,7 +23,6 @@ const Header = props => {
     typeof window !== 'undefined' &&
       window.localStorage.setItem('theme', alternateTheme)
   }
-  const onToggleMenu = () => toggleMenu(!isMenuVisible)
 
   return (
     <>
@@ -61,13 +59,7 @@ const Header = props => {
             <span className={style.logoLabel}>{siteTitle}</span>
           </Link>
         </div>
-        <Menu
-          mainMenu={mainMenu}
-          isMenuVisible={isMenuVisible}
-          menuMoreText={menuMoreText}
-          onToggleMenu={onToggleMenu}
-          onChangeTheme={onChangeTheme}
-        />
+        <Menu mainMenu={mainMenu} onChangeTheme={onChangeTheme} />
       </header>
     </>
   )
@@ -82,7 +74,6 @@ Header.propTypes = {
       path: PropTypes.string,
     })
   ),
-  menuMoreText: PropTypes.string,
 }
 
 export default Header

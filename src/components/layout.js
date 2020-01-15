@@ -28,7 +28,6 @@ const Layout = ({ children }) => {
             title
             path
           }
-          menuMoreText
         }
       }
     }
@@ -38,7 +37,6 @@ const Layout = ({ children }) => {
     defaultTheme,
     mainMenu,
     footerMenu,
-    menuMoreText,
     twitterUrl,
     githubUrl,
     instagramUrl,
@@ -52,7 +50,6 @@ const Layout = ({ children }) => {
         siteTitle={title}
         defaultTheme={defaultTheme}
         mainMenu={mainMenu}
-        menuMoreText={menuMoreText}
       />
       {children}
       <Footer

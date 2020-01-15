@@ -23,13 +23,7 @@ const MainMenu = ({ mainMenu }) => {
   return <ul className={style.primaryMenu}>{items}</ul>
 }
 
-const Menu = ({
-  mainMenu,
-  menuMoreText,
-  isMenuVisible,
-  onToggleMenu,
-  onChangeTheme,
-}) => {
+const Menu = ({ mainMenu, onChangeTheme }) => {
   return (
     <>
       <nav
@@ -37,32 +31,19 @@ const Menu = ({
         itemScope
         itemType="http://schema.org/SiteNavigationElement"
         aria-label="Primary navigation"
-        className={
-          isMenuVisible
-            ? style.primaryNavigationIsVisible
-            : style.primaryNavigation
-        }
+        className={style.primaryNavigation}
       >
         <MainMenu mainMenu={mainMenu} />
       </nav>
       <div className={style.siteControls}>
         <button
-          className={style.menuToggle}
-          onClick={onToggleMenu}
-          type="button"
-          aria-label="Menu"
-        >
-          {menuMoreText}
-        </button>
-        <button
           className={style.themeToggle}
           onClick={onChangeTheme}
           type="button"
-          title="Toggle dark mode"
         >
           <div className={style.themeToggleInner}>
-            <div className={style.themeToggleIcon} />
-            <div className={style.themeToggleLabel}>Toggle dark mode</div>
+            <span className={style.themeToggleIcon} />
+            <span className={style.themeToggleLabel}>Toggle dark mode</span>
           </div>
         </button>
       </div>
@@ -77,9 +58,6 @@ Menu.propTypes = {
       path: PropTypes.string,
     })
   ),
-  menuMoreText: PropTypes.string,
-  isMenuVisible: PropTypes.bool,
-  onToggleMenu: PropTypes.func,
   onChangeTheme: PropTypes.func,
 }
 
