@@ -2,10 +2,9 @@
 title: "About Michael Rose"
 path: /about/
 date: 2016-08-26
-last_modified_at: 2020-01-07T16:22:17-05:00
+last_modified_at: 2020-01-16T12:15:53-05:00
 excerpt: "Michael Rose is just another boring, tattooed, time traveling designer from Buffalo New York."
 image: ../images/about-michael-collage-2016.jpg
-toc: true
 ---
 
 Oh hey --- I'm Michael Rose, just another boring, tattooed, time traveling designer from Buffalo, New York.
@@ -53,7 +52,7 @@ I've since decided to abandon using a CMS in favor of black magick and [Gatsby](
 
 ## Follow me on the internets
 
-I promose not to junk up your feeds as I rarely post on social media.
+I promise not to junk up your feeds as I rarely post on social media.
 
 <ul class="social-media">
   <li>
