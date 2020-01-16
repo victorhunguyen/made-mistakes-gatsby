@@ -138,6 +138,7 @@
   li {
     position: relative;
     display: flex;
+    align-items: flex-start;
     margin-left: 0;
     margin-bottom: 1em;
 
