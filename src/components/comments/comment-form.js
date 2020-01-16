@@ -278,7 +278,7 @@ class CommentForm extends React.Component {
                 backtick fences (```) with double new lines before and after.
               </p>
               <p>
-                Want to share something with me privately?{' '}
+                Want to share something privately?{' '}
                 <Link to="/contact/">
                   <strong>Contact me</strong>
                 </Link>
