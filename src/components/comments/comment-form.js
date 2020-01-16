@@ -264,9 +264,9 @@ class CommentForm extends React.Component {
             </form>
             <div className={style.instructions}>
               <p>
-                All comments are held for moderation so there will be a delay
-                until they appear. I publish all comments that are on topic,
-                useful, not rude, etc.
+                All comments are held for moderation so there can be a delay
+                until they appear. I publish comments that are on topic, useful,
+                not rude, etc.
               </p>
               <p>
                 Comments may be written in{' '}
