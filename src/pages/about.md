@@ -32,23 +32,13 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
 
 ## About the site
 
-So what does this all have to do with **made mistakes** and why did I name the website this? 
+What does this all have to do with **made mistakes** and why did I name it that? 
 
-It vaguely has something to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest I was just looking for a short, memorable sounding domain name.
+It vaguely has to do with that whole happy accident thing, where a mistake can turn out to be something great and unplanned. But to be honest, I just wanted a short and memorable domain name.
 
-In May of 2004 I purchased **mademistakes.com**, and threw up a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with various content management systems ([Movable Type](http://www.movabletype.org/) → [Textpattern](http://textpattern.com/) → [Wordpress](http://wordpress.org/) → [Indexhibit](http://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
+In May of 2004 I purchased **mademistakes.com**, and uploaded a Macromedia Flash splash screen (hey remember those?) while I worked on building out my portfolio. For the next couple of years I would experiment with content management systems ([Movable Type](https://movabletype.org/) → [Textpattern](https://textpattern.com/) → [Wordpress](https://wordpress.org/) → [Indexhibit](https://www.indexhibit.org/)), developing minimalistic themes and learning what I could about HTML, CSS, JavaScript, PHP, and MySQL databases.
 
-I've since decided to abandon using a CMS in favor of black magick and [Gatsby](https://www.gatsbyjs.org/) to [generate flat files](/articles/going-static/) for improved performance and security. Building layouts, stylesheets, feeds, and assets from scratch was challenging at first, but the knowledge gained made it all worth it.
-
-## Selected interviews
-
-- [**The Story of PaperFaces**](https://web.archive.org/web/20140216060340/http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
-- [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
-
-## Honorable mentions
-
-- [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
-- [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
+I've since decided to abandon the monolithic CMS in favor of the [JAMstack](https://jamstack.wtf/). With a bit of black magick and [Gatsby](https://www.gatsbyjs.org/) I get a better performing and secure site built from [Markdown files](/articles/going-static/).
 
 ## Follow me on the internets
 
@@ -110,5 +100,15 @@ I promise not to junk up your feeds as I rarely post on social media.
     </div>
   </li>
 </ul>
+
+## Selected interviews
+
+- [**The Story of PaperFaces**](https://web.archive.org/web/20140216060340/http://anewatlantis.com/2013/01/the-story-of-paperfaces/) --- A New Atlantis
+- [**...don't break the chain**](http://blog.sktchy.com/post/78751385093/dont-break-the-chain) --- Sktchy artist feature
+
+## Honorable mentions
+
+- [**22 Gorgeous Pieces Of Art You Won't Believe Were Drawn On An iPad**](http://www.businessinsider.com/gorgeous-ipad-art-2015-1?op=1) --- Business Insider
+- [**This Summer We Learned About PaperFaces**](http://madewithpaper.fiftythree.com/post/36767754768/this-summer-we-learned-about-paper-faces-by) --- FiftyThree
 
 *[CMS]: Content Management System
