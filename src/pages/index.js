@@ -242,6 +242,7 @@ export const pageQuery = graphql`
           featured: { ne: true }
           published: { ne: false }
           output: { ne: false }
+          categories: { nin: "work" }
         }
       }
       sort: { fields: [frontmatter___date], order: DESC }
