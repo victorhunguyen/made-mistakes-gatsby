@@ -38,7 +38,7 @@ module.exports = {
     feedUrl: site.feedUrl,
 
     // Site config
-    copyrights: `&copy; 2004&mdash;${new Date().getFullYear()} <a href="https://mademistakes.com/humans.txt">Michael Rose</a>. Some Rights Reserved.<br />Built with <a href="https://www.gatsbyjs.org/">GatsbyJS</a> and hosted on <a href="https://www.netlify.com/">Netlify</a>.`,
+    copyrights: `&copy; 2004&mdash;${new Date().getFullYear()} <a href="https://mademistakes.com/humans.txt">Michael Rose</a>. Some Rights Reserved.<br />Built in Buffalo, New York. (<a href="https://github.com/mmistakes/made-mistakes-gatsby" rel="nofollow">view source</a>)`,
     defaultTheme: 'light',
     postsPerPage: 10,
     mainMenu: [
