@@ -34,7 +34,7 @@ const Footer = ({
     <ul className={style.menuSocial}>
       {twitter && (
         <li>
-          <a href={twitter}>
+          <a href={twitter} rel="nofollow">
             <TwitterIcon />
             <span className={style.iconLabel}>Twitter</span>
           </a>
@@ -42,7 +42,7 @@ const Footer = ({
       )}
       {github && (
         <li>
-          <a href={github}>
+          <a href={github} rel="nofollow">
             <GithubIcon />
             <span className={style.iconLabel}>GitHub</span>
           </a>
@@ -50,7 +50,7 @@ const Footer = ({
       )}
       {instagram && (
         <li>
-          <a href={instagram}>
+          <a href={instagram} rel="nofollow">
             <InstagramIcon />
             <span className={style.iconLabel}>Instagram</span>
           </a>
