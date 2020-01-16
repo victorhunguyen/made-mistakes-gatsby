@@ -26,6 +26,10 @@
   border: 0;
   cursor: pointer;
 
+  &.submit {
+    padding: 1em 1.5em;
+  }
+
   &:hover {
     background-color: color-mod(var(--button-background-color) tint(25%));
     color: #fff;
@@ -266,6 +270,10 @@
     border: 1px solid var(--input-background-color);
     border-radius: 0.25em;
     -webkit-appearance: none;
+
+    &:focus:required {
+      box-shadow: 0 0 0 0.2rem var(--danger-color);
+    }
   }
 
   &.hidden {

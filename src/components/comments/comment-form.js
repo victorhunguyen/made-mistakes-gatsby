@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import { loadReCaptcha, ReCaptcha } from 'react-recaptcha-google'
 import Alert from '../alert'
@@ -158,6 +159,9 @@ class CommentForm extends React.Component {
         ) : (
           <>
             <h3 className={style.title}>Leave a comment</h3>
+            <div className={style.instructions}>
+              <p>Your email address will not be published.</p>
+            </div>
             <form
               id="new-comment"
               className={style.form}
@@ -180,6 +184,21 @@ class CommentForm extends React.Component {
                 value={site.reCaptcha.secret}
               />
               <div className={style.row}>
+                <label className={style.srOnly} htmlFor="message">
+                  Comment
+                </label>
+                <textarea
+                  id="message"
+                  className={style.textarea}
+                  name="fields[message]"
+                  value={message}
+                  placeholder="New comment"
+                  rows="6"
+                  onChange={this.handleChange}
+                  required
+                />
+              </div>
+              <div className={style.row}>
                 <label className={style.label} htmlFor="name">
                   Name
                   <input
@@ -188,7 +207,6 @@ class CommentForm extends React.Component {
                     name="fields[name]"
                     value={name}
                     type="text"
-                    placeholder="Your name"
                     onChange={this.handleChange}
                     required
                   />
@@ -201,35 +219,21 @@ class CommentForm extends React.Component {
                     name="fields[email]"
                     value={email}
                     type="email"
-                    placeholder="email@domain.com"
+                    pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
                     onChange={this.handleChange}
                   />
                 </label>
+              </div>
+              <div className={style.row}>
                 <label className={style.label} htmlFor="website">
-                  Website (optional)
+                  Website
                   <input
                     id="website"
                     className={style.input}
                     name="fields[url]"
                     value={url}
-                    placeholder="https://domain.com"
                     onChange={this.handleChange}
                     type="text"
-                  />
-                </label>
-              </div>
-              <div className={style.row}>
-                <label className={style.label} htmlFor="message">
-                  Comment
-                  <textarea
-                    id="message"
-                    className={style.textarea}
-                    name="fields[message]"
-                    value={message}
-                    placeholder="Your message"
-                    rows="6"
-                    onChange={this.handleChange}
-                    required
                   />
                 </label>
               </div>
@@ -254,11 +258,33 @@ class CommentForm extends React.Component {
                 className={style.submit}
                 type="submit"
                 disabled={submitting}
-                style={{ marginTop: '1rem' }}
               >
                 {submitting ? 'Sending. Please wait...' : 'Send comment'}
               </button>
             </form>
+            <div className={style.instructions}>
+              <p>
+                All comments are held for moderation so there will be a delay
+                until they appear. I publish all comments that are on topic,
+                useful, not rude, etc.
+              </p>
+              <p>
+                Comments may be written in{' '}
+                <a href="https://commonmark.org/help/" rel="nofollow">
+                  <strong>Markdown</strong>
+                </a>
+                . This is the best way to post any code, inline like
+                `&lt;div&gt;this&lt;/div&gt;` or multiline blocks within triple
+                backtick fences (```) with double new lines before and after.
+              </p>
+              <p>
+                Want to share something with me privately?{' '}
+                <Link to="/contact/">
+                  <strong>Contact me</strong>
+                </Link>
+                .
+              </p>
+            </div>
           </>
         )}
       </div>

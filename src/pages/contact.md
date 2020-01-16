@@ -13,12 +13,12 @@ Before sending, please read my [frequently asked questions section](/faqs/) firs
 <form id="form1" name="form1" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://mademistakes.wufoo.com/forms/zr2w1zk1hbcjv0/#public">
   <div class="form-group">
     <label id="title7" for="Field7">Name
-      <input id="Field7" name="Field7" type="text" spellcheck="false" maxlength="255" required placeholder="Your name">
+      <input id="Field7" name="Field7" type="text" spellcheck="false" maxlength="255" required>
     </label>
   </div>
   <div class="form-group">
     <label id="title2" for="Field2">Email address <small>(will remain private)</small>
-      <input id="Field2" name="Field2" type="email" spellcheck="false" maxlength="255" required placeholder="email@address.com">
+      <input id="Field2" name="Field2" type="email" spellcheck="false" maxlength="255" required pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?">
     </label>
   </div>
   <div class="form-group">
@@ -32,7 +32,7 @@ Before sending, please read my [frequently asked questions section](/faqs/) firs
     </label>
   </div>
   <div class="form-group">
-    <button id="saveForm" name="saveForm" class="btn" type="submit">Send message</button>
+    <button id="saveForm" name="saveForm" class="btn submit" type="submit">Send message</button>
   </div>
   <div class="form-group hidden">
     <label for="comment">Do not fill this out
