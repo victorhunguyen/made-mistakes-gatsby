@@ -200,6 +200,7 @@ dd {
 }
 
 figure {
+  margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
 
@@ -215,7 +216,7 @@ figure {
 
 figcaption {
   position: relative;
-  margin: 0.75em 0;
+  margin: 0.75rem 0;
   font-size: var(--text-xs);
 }
 
@@ -263,8 +264,12 @@ main article {
     margin-bottom: 0;
   }
 
-  p, ol, ul, blockquote, figure, video, iframe {
+  p, ol, ul {
     margin-bottom: 1.5em;
+  }
+
+  blockquote, figure, video, iframe {
+    margin-bottom: 2em;
   }
 }
 
