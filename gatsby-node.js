@@ -195,6 +195,7 @@ exports.createSchemaCustomization = ({ actions }) => {
 
     type TaxonomyYaml implements Node {
       id: String!
+      name: String
       excerpt: String
       html: String
     }
