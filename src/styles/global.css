@@ -224,7 +224,7 @@
   }
 }
 
-.gatsby-resp-image-wrapper {
+p > .gatsby-resp-image-wrapper {
   margin-top: 2em;
 }
 
