@@ -377,6 +377,23 @@ module.exports = {
                   ? `<p><img src="${site.siteMetadata.siteUrl +
                       image.childImageSharp.fixed.src}" alt=""></p>`
                   : ``
+                let mainContent = html
+                // Hacky workaround for relative paths https://github.com/gaearon/overreacted.io/issues/65
+                mainContent = mainContent
+                  .replace(/href="\//g, `href="${site.siteMetadata.siteUrl}/`)
+                  .replace(/src="\//g, `src="${site.siteMetadata.siteUrl}/`)
+                  .replace(
+                    /"\/static\//g,
+                    `"${site.siteMetadata.siteUrl}/static/`
+                  )
+                  .replace(
+                    /,\s*\/static\//g,
+                    `,${site.siteMetadata.siteUrl}/static/`
+                  )
+                  // Replace data-src with src from remark lazyload plugin
+                  .replace(/data-src=/g, 'src=')
+                  // Replace data-srcset with srcset from remark lazyload plugin
+                  .replace(/data-srcset=/g, 'srcset=')
                 const footerContent = `<p><a href="${site.siteMetadata.siteUrl +
                   edge.node.frontmatter.path}">${
                   edge.node.frontmatter.title
@@ -389,7 +406,10 @@ module.exports = {
                   url: permalink,
                   guid: permalink,
                   custom_elements: [
-                    { 'content:encoded': imageElement + html + footerContent },
+                    {
+                      'content:encoded':
+                        imageElement + mainContent + footerContent,
+                    },
                   ],
                 })
               })
