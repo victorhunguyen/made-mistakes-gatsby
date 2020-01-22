@@ -3,8 +3,8 @@ title: "2 Little Rosebuds"
 path: /work/2-little-rosebuds/
 excerpt: "Creative and site development for 2 Little Rosebuds — a blog all about subscription boxes."
 image: ../../images/2-little-rosebuds-feature.jpg
-date: 2020-01-16
-last_modified_at:
+date: 2020-01-21
+last_modified_at: 2020-01-22T10:12:52-05:00
 categories: [work]
 tags: [design, web development]
 published: true
