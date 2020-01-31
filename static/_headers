@@ -1,2 +1,8 @@
+/*
+ X-XSS-Protection: 1; mode=block
+ Referrer-Policy: no-referrer
+ X-Content-Type-Options: nosniff
+ Referrer-Policy: same-origin
+
 /sw.js   # Gatsby's default service worker file path
    Cache-Control: no-cache
