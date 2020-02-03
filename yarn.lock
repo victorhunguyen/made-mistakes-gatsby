@@ -6502,7 +6502,7 @@ gatsby-cli@^2.8.28:
     ink "^2.6.0"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.0.26, gatsby-core-utils@^1.0.27:
+gatsby-core-utils@^1.0.27:
   version "1.0.27"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.0.27.tgz#d08270fc3de7ca48a1ae2f0931afb08c09647141"
   integrity sha512-w75Sjby/XhYQexeDTAQoBI385BXMt79B+hT55JwQmtz1VJ4/gQMUENG2J5ABzPsN7rD1TueNcR9BpU5Ns7sgdw==
@@ -6705,10 +6705,10 @@ gatsby-remark-copy-linked-files@^2.1.36:
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-custom-blocks@^2.1.24:
-  version "2.1.24"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-custom-blocks/-/gatsby-remark-custom-blocks-2.1.24.tgz#955747af7ed2f3a602d97a65bd0d9981393779bf"
-  integrity sha512-p1uONaFe/xQ25JS2Tt7lFwDvHHXudCJpIU7wl8Yx/9u5yL9JwaTVjYJ+cCZcecBPw00ToT4H5bcNd+apsNPjJw==
+gatsby-remark-custom-blocks@^2.1.25:
+  version "2.1.25"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-custom-blocks/-/gatsby-remark-custom-blocks-2.1.25.tgz#3a79db2bbd4cdb77b7a72d1056e9dfe583f975d9"
+  integrity sha512-vS3K0dxXfUy6r5csfyzhXNb9+cVHHXnzU5wOAtGSWmrzeWbFCdLK3BGR+WjKla+d7kHPZ79M7O8WLu7fGy0Ifw==
   dependencies:
     "@babel/runtime" "^7.7.6"
     remark-custom-blocks "^2.4.2"
