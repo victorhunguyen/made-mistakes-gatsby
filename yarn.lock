@@ -12931,10 +12931,10 @@ querystringify@^2.1.1:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.1.1.tgz#60e5a5fd64a7f8bfa4d2ab2ed6fdf4c85bad154e"
   integrity sha512-w7fLxIRCRT7U8Qu53jQnJyPkYZIaR4n5151KMfcJlO/A9397Wxb1amJvROTK6TOnp7PfoAmg/qXiNHI+08jRfA==
 
-rambdax@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/rambdax/-/rambdax-3.6.0.tgz#fd2ad675ed90ae0f64188a1078f857f91070331c"
-  integrity sha512-00M2RgIHIvr5bzRu02qlPrRFg6uekUorvCmoK8ZQZt0Vl2rz+Y/EpfNL6Z6Fwh7kkNI40atT19J6pt6iJVoMQw==
+rambdax@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/rambdax/-/rambdax-3.7.0.tgz#bc89ced092f95521555eb24fe0a29039807a4756"
+  integrity sha512-EaV46HD0sqoFGmm0BT7cMSUXJw0l+iMCH52CkhAuByJNLC+WXE13KgxRd5UsnwdLg/tEskgPADYacOuR0zVa9Q==
 
 random-item@^1.0.0:
   version "1.0.0"
