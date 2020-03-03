@@ -1,6 +1,8 @@
 .entry {
   position: relative;
   max-width: var(--text-width);
+  display: flex;
+  flex-direction: column;
 
   a,
   a:active,
@@ -45,6 +47,7 @@
 }
 
 .meta {
+  margin-top: 0.25em;
   margin-bottom: 0.75em;
   font-family: var(--monospace-font);
   font-size: var(--text-xs);
@@ -76,4 +79,5 @@
 
 .cover {
   margin-bottom: 0.5rem;
+  order: -1;
 }

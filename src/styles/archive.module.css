@@ -172,8 +172,8 @@
     -webkit-overflow-scrolling: touch;
 
     > * {
-      flex: 1 0 90%;
-      margin-right: 1rem;
+      flex: 1 0 240px;
+      /* margin-right: 1rem; */
     }
   }
 }
