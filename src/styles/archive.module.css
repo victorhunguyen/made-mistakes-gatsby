@@ -64,7 +64,7 @@
     line-height: 1.5;
     box-decoration-break: clone;
     background-color: var(--text-color);
-    -webkit-mask-image: url('../images/dust-and-scratches.png');
+    mask-image: url('../images/dust-and-scratches.png');
   }
 }
 

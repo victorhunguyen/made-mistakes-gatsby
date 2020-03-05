@@ -29,7 +29,7 @@
   font-size: var(--text-4xl);
   font-variant-ligatures: common-ligatures;
   font-feature-settings: 'kern' on, 'liga' on, 'clig' on, 'calt' on;
-  -webkit-mask-image: url('../images/dust-and-scratches.png');
+  mask-image: url('../images/dust-and-scratches.png');
 
   &::before {
     content: '';
