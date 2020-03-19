@@ -35,7 +35,7 @@
     "gatsby-plugin-sitemap": "^2.2.30",
     "gatsby-remark-abbr": "^2.0.0",
     "gatsby-remark-autolink-headers": "^2.1.26",
-    "gatsby-remark-copy-linked-files": "^2.1.39",
+    "gatsby-remark-copy-linked-files": "^2.1.40",
     "gatsby-remark-custom-blocks": "^2.1.27",
     "gatsby-remark-embed-video": "mmistakes/gatsby-remark-embed-video",
     "gatsby-remark-images": "^3.1.50",
