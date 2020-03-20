@@ -23,7 +23,7 @@
     "gatsby": "^2.19.49",
     "gatsby-awesome-pagination": "^0.3.5",
     "gatsby-image": "^2.2.45",
-    "gatsby-plugin-catch-links": "^2.1.28",
+    "gatsby-plugin-catch-links": "^2.2.0",
     "gatsby-plugin-css-customs": "^0.4.0",
     "gatsby-plugin-feed": "^2.3.29",
     "gatsby-plugin-google-analytics": "^2.1.38",
