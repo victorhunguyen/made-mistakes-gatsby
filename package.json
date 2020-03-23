@@ -49,7 +49,7 @@
     "gatsby-source-github-api": "^0.2.0",
     "gatsby-transformer-remark": "^2.7.0",
     "gatsby-transformer-sharp": "^2.3.19",
-    "gatsby-transformer-yaml": "^2.2.27",
+    "gatsby-transformer-yaml": "^2.3.0",
     "intersection-observer": "^0.7.0",
     "lazysizes": "^5.2.0",
     "postcss-import": "^12.0.1",
