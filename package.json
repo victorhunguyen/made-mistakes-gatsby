@@ -84,7 +84,7 @@
     "eslint-plugin-react-hooks": "^2.5.1",
     "lodash-addons": "^2.0.1",
     "netlify-cli": "^2.40.0",
-    "prettier": "^1.18.2"
+    "prettier": "^2.0.2"
   },
   "browserslist": [
     "> 0.25%",
