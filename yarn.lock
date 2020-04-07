@@ -7214,10 +7214,10 @@ gatsby-source-filesystem@^2.2.2:
     valid-url "^1.0.9"
     xstate "^4.8.0"
 
-gatsby-source-github-api@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/gatsby-source-github-api/-/gatsby-source-github-api-0.2.0.tgz#f0d09a693cae59b4151ad43e024e7d85a97dacd0"
-  integrity sha512-idO8cfwSOpfU+R58NQ9bxyixv/rEcPeQUUpo+Bu3TFXXLZ9onJ3/JP98Xl/MLHXC4vm20WxHqoAVjkuAbdSeXQ==
+gatsby-source-github-api@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-github-api/-/gatsby-source-github-api-0.2.1.tgz#80390254644054214debe5e9fdcdac7d316506c0"
+  integrity sha512-mu4ek8KjtiSjI0Wj9afeylSGdcOmD0piUy/RpEbuu5B+fj8LRW3h+SBvzwYmQhSsxYnwCXc2gjci6Efu2iQwzQ==
   dependencies:
     graphql-fetch "^1.0.1"
     uuid "^3.1.0"
@@ -12973,7 +12973,7 @@ postcss@^7.0.26, postcss@^7.0.27:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-potrace@^2.1.2, potrace@^2.1.5:
+potrace@^2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/potrace/-/potrace-2.1.5.tgz#4d0c284ad5af39b74affe7a738b26bb009000b91"
   integrity sha512-huAWS0flSZttRm+WA5IGSFxHLXgVd9JCGU8+heDD3fAvFmW1Wf1Y7qq3Un2hH2xBNMwDY7vP1PYA0VQUh7CC+Q==
