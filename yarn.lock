@@ -6802,10 +6802,10 @@ gatsby-awesome-pagination@^0.3.5:
   dependencies:
     lodash "^4.17.15"
 
-gatsby-cli@^2.11.5:
-  version "2.11.5"
-  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.11.5.tgz#4020880414ea33647a286066bf8f1707d629b3db"
-  integrity sha512-yAvyplWx19dU5gYdWJETEMywbNTtL9HntlR65cHhznKiwrr6Jyao+TsE50CmgZ/8Vv2JMF3UZFd3vFRXb+aK7w==
+gatsby-cli@^2.11.8:
+  version "2.11.8"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.11.8.tgz#1517ae1aaef09e95b16d18c4bd6715bf6a43d354"
+  integrity sha512-oYEfPKZJXUkiYGHdds5+Rt5oOHziCKiy6/g1UVRqODMmYmB0InMGaDfRU0R9O7EXjmkFbmNWruoweyCMYpG57Q==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/runtime" "^7.8.7"
@@ -7239,10 +7239,10 @@ gatsby-transformer-yaml@^2.3.1:
     lodash "^4.17.15"
     unist-util-select "^1.5.0"
 
-gatsby@^2.20.13:
-  version "2.20.13"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.20.13.tgz#e6b44e6e3ecf5f6a5c3e55f25f2097678a7db3a1"
-  integrity sha512-hPzmHSWhInIlY4Lg6hSrFlCxcITCsTs9QM5OhmmFtWDVY3fAr/MsVH1NVZJuY+rTFYtvk5hO284dOBMGcHtUww==
+gatsby@^2.20.19:
+  version "2.20.19"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.20.19.tgz#32816ba1326f80e26414e12974e6079272d123ba"
+  integrity sha512-fivOd//J5Vijrl15jnI1sUs8YjHZJGCFUhUgN5D7Vc9KAYNwyRup4PlHvS0RRMfWjwnDDFPUBH+6abBis5up1A==
   dependencies:
     "@babel/code-frame" "^7.8.3"
     "@babel/core" "^7.8.7"
@@ -7305,7 +7305,7 @@ gatsby@^2.20.13:
     flat "^4.1.0"
     fs-exists-cached "1.0.0"
     fs-extra "^8.1.0"
-    gatsby-cli "^2.11.5"
+    gatsby-cli "^2.11.8"
     gatsby-core-utils "^1.1.1"
     gatsby-graphiql-explorer "^0.3.1"
     gatsby-link "^2.3.2"
