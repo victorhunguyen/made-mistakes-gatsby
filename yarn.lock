@@ -7459,10 +7459,10 @@ gatsby-remark-copy-linked-files@^2.2.2:
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-custom-blocks@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-custom-blocks/-/gatsby-remark-custom-blocks-2.2.1.tgz#d4bf85d03a1dacf4c5b93e3b7cc64488c665525c"
-  integrity sha512-Bb9glVZt9yut7XYet3Ovm+2XgR89kAoqFImSyTJeRuApc2vX+UrGTUp4GfdyLWFZZjDuT9GhOE4Soj8JNBSYXQ==
+gatsby-remark-custom-blocks@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-custom-blocks/-/gatsby-remark-custom-blocks-2.2.3.tgz#ae8c5865e14f6d99062e40bfb9b01c48fdbb33cf"
+  integrity sha512-G/PKcpdAD35O8TqYqIpvCVU9M6A4/vkrhFm41lj+a1u8bQykT5475QV5ezXObKI50GKPRappCUtQ/jr3kiFRmQ==
   dependencies:
     "@babel/runtime" "^7.8.7"
     remark-custom-blocks "^2.5.0"
