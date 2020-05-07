@@ -1417,18 +1417,18 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@netlify/build@^0.4.1":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-0.4.3.tgz#11269e95f36fa851e0aa722dbc886d3b5ccbeac7"
-  integrity sha512-xioEJLG265UQxIVSBmrwPdfFw327sIWjEX+FeQexu4iXUUueKyW5VW5X/IBaHEe+UmsoNBbBv/1oYA4QocPEBg==
+"@netlify/build@^0.4.15":
+  version "0.4.23"
+  resolved "https://registry.yarnpkg.com/@netlify/build/-/build-0.4.23.tgz#9c4c105843a1c99b08f6836de2ee34fb0117e24b"
+  integrity sha512-cpNG0PsPqyNpFZ57lwQqceba10euzuwLXTUwOLhCN0RpjlSaZS+doziRW6xyBYXs+vS/BNCh3VTdcotIZqveuA==
   dependencies:
     "@bugsnag/js" "^7.0.0"
     "@netlify/cache-utils" "^0.4.1"
-    "@netlify/config" "^0.11.1"
+    "@netlify/config" "^0.11.5"
     "@netlify/functions-utils" "^0.2.4"
     "@netlify/git-utils" "^0.2.2"
     "@netlify/run-utils" "^0.1.1"
-    "@netlify/zip-it-and-ship-it" "^0.4.0-14"
+    "@netlify/zip-it-and-ship-it" "^0.4.0-17"
     analytics "0.3.1"
     array-flat-polyfill "^1.0.1"
     chalk "^3.0.0"
@@ -1445,7 +1445,7 @@
     locate-path "^5.0.0"
     log-process-errors "^5.1.2"
     map-obj "^4.1.0"
-    netlify "^4.0.5"
+    netlify "^4.1.3"
     os-name "^3.1.0"
     p-event "^4.1.0"
     p-filter "^2.1.0"
@@ -1455,7 +1455,7 @@
     pretty-ms "^6.0.1"
     read-pkg-up "^7.0.1"
     readdirp "^3.4.0"
-    resolve "^1.15.1"
+    resolve "^2.0.0-next.1"
     semver "^7.1.3"
     string-width "^4.2.0"
     strip-ansi "^6.0.0"
@@ -1478,10 +1478,10 @@
     path-exists "^4.0.0"
     readdirp "^3.4.0"
 
-"@netlify/config@^0.11.0", "@netlify/config@^0.11.1":
-  version "0.11.1"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-0.11.1.tgz#7ca9959ef65ba20c5c4c7ad5cb2296f3d937acad"
-  integrity sha512-5e/TIBiZ+c0ykDE8pImNFP5X7ui2eo/Gak5Q9htncuvkttT51vR/oEhftpTNAXXH1cmcsqfR1JxRQM017nm0Yg==
+"@netlify/config@^0.11.5":
+  version "0.11.5"
+  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-0.11.5.tgz#139657f3d15f37cc25cebeb8a81a3f9c94541d65"
+  integrity sha512-6OxKIeg9LqXvAm48YbWWZi8R6vGEPrBbNmRNqznP9Cxgdo0MR0Hzn5jalUkMXJtiJpzqsABDGuOU0ysEeFW9/Q==
   dependencies:
     array-flat-polyfill "^1.0.1"
     chalk "^3.0.0"
@@ -1493,35 +1493,12 @@
     indent-string "^4.0.0"
     is-plain-obj "^2.1.0"
     js-yaml "^3.13.1"
-    netlify "^4.0.5"
+    netlify "^4.1.3"
     p-filter "^2.1.0"
     p-locate "^4.1.0"
     path-exists "^4.0.0"
     toml "^3.0.0"
     tomlify-j0.4 "^3.0.0"
-    yargs "^15.3.0"
-
-"@netlify/config@^0.9.1":
-  version "0.9.2"
-  resolved "https://registry.yarnpkg.com/@netlify/config/-/config-0.9.2.tgz#e05b4eb6fd07af4af14ab3db584945a5801917e9"
-  integrity sha512-Dyi08k4vArgtKm8F1ytifpEIELOr+0sdIDeEXMTZBsGN0zyyMoE+784xsXv8PTK6qobaCEUUL4bnLgEkUeYS5g==
-  dependencies:
-    array-flat-polyfill "^1.0.1"
-    chalk "^3.0.0"
-    deepmerge "^4.2.2"
-    execa "^3.4.0"
-    fast-safe-stringify "^2.0.7"
-    filter-obj "^2.0.1"
-    find-up "^4.1.0"
-    indent-string "^4.0.0"
-    is-plain-obj "^2.1.0"
-    js-yaml "^3.13.1"
-    map-obj "^4.1.0"
-    netlify "^4.0.5"
-    p-filter "^2.1.0"
-    p-locate "^4.1.0"
-    path-exists "^4.0.0"
-    toml "^3.0.0"
     yargs "^15.3.0"
 
 "@netlify/functions-utils@^0.2.4":
@@ -1554,10 +1531,10 @@
   dependencies:
     execa "^3.4.0"
 
-"@netlify/zip-it-and-ship-it@^0.4.0-14":
-  version "0.4.0-14"
-  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-0.4.0-14.tgz#113303b929d58e4f5a124c464cc2f25acc7a4304"
-  integrity sha512-R27SCZr1UvPYyhKgvKnBOZLg+JVuzRf0zaqLRwCnRo8fcDcEaeB70flPs/BXK0m2QLGT9kk+sZhSBWJz8WqoNA==
+"@netlify/zip-it-and-ship-it@^0.4.0-16", "@netlify/zip-it-and-ship-it@^0.4.0-17":
+  version "0.4.0-17"
+  resolved "https://registry.yarnpkg.com/@netlify/zip-it-and-ship-it/-/zip-it-and-ship-it-0.4.0-17.tgz#94c346d2889520b167cf89721d6c7dd5ebc9c520"
+  integrity sha512-T7u9N7p1RUG4qj/68R8b91rbJsuVg0ebcbiz0PA9o/kFv2GmlrPYZthUg4vG25Z5TD1UtHzkwyV+arf8llsguw==
   dependencies:
     archiver "^3.0.0"
     common-path-prefix "^2.0.0"
@@ -1571,7 +1548,7 @@
     pkg-dir "^4.2.0"
     precinct "^6.2.0"
     require-package-name "^2.0.1"
-    resolve "^1.15.1"
+    resolve "^2.0.0-next.1"
     unixify "^1.0.0"
     util.promisify "^1.0.1"
     yargs "^15.3.1"
@@ -10526,6 +10503,11 @@ lodash.islength@^4.0.1:
   resolved "https://registry.yarnpkg.com/lodash.islength/-/lodash.islength-4.0.1.tgz#4e9868d452575d750affd358c979543dc20ed577"
   integrity sha1-Tpho1FJXXXUK/9NYyXlUPcIO1Xc=
 
+lodash.isobject@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/lodash.isobject/-/lodash.isobject-3.0.2.tgz#3c8fb8d5b5bf4bf90ae06e14f2a530a4ed935e1d"
+  integrity sha1-PI+41bW/S/kK4G4U8qUwpO2TXh0=
+
 lodash.isplainobject@^4.0.6:
   version "4.0.6"
   resolved "https://registry.yarnpkg.com/lodash.isplainobject/-/lodash.isplainobject-4.0.6.tgz#7c526a52d89b45c45cc690b88163be0497f550cb"
@@ -11494,14 +11476,14 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-netlify-cli@^2.48.0:
-  version "2.48.0"
-  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.48.0.tgz#56ccbb90d7f2172f23fd2c55ee00499216b8816f"
-  integrity sha512-LSXTBjJB+Wj8no2VBkZiiIAX0I7eY8Vpzjuyo2bKdI74+nBKqzLeLZjC/6GHhJuEeO42/sCIKVWVtdf1+0cN/A==
+netlify-cli@^2.50.0:
+  version "2.50.0"
+  resolved "https://registry.yarnpkg.com/netlify-cli/-/netlify-cli-2.50.0.tgz#d26d2d38581e59183cf9d627906426676f421251"
+  integrity sha512-HUMX5VR3eXfO/jwJcLovM5Qq7UeT/3trbOQ5o775g57Jcb6vMfBJa/xX1tHYfEBW95RZUbvcvvcpP+ObM2NOEw==
   dependencies:
-    "@netlify/build" "^0.4.1"
-    "@netlify/config" "^0.11.0"
-    "@netlify/zip-it-and-ship-it" "^0.4.0-14"
+    "@netlify/build" "^0.4.15"
+    "@netlify/config" "^0.11.5"
+    "@netlify/zip-it-and-ship-it" "^0.4.0-16"
     "@oclif/command" "^1.5.18"
     "@oclif/config" "^1.13.2"
     "@oclif/errors" "^1.1.2"
@@ -11548,6 +11530,7 @@ netlify-cli@^2.48.0:
     lodash.get "^4.4.2"
     lodash.isempty "^4.4.0"
     lodash.isequal "^4.5.0"
+    lodash.isobject "^3.0.2"
     lodash.merge "^4.6.2"
     lodash.pick "^4.4.0"
     lodash.sample "^4.2.1"
@@ -11555,8 +11538,8 @@ netlify-cli@^2.48.0:
     log-symbols "^2.2.0"
     make-dir "^3.0.0"
     minimist "^1.2.5"
-    netlify "^4.0.5"
-    netlify-redirect-parser "^2.4.0"
+    netlify "^4.1.2"
+    netlify-redirect-parser "^2.5.0"
     netlify-redirector "^0.2.0"
     node-fetch "^2.6.0"
     npm-packlist "^1.4.4"
@@ -11582,25 +11565,26 @@ netlify-cli@^2.48.0:
     wrap-ansi "^6.0.0"
     write-file-atomic "^3.0.0"
 
-netlify-redirect-parser@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/netlify-redirect-parser/-/netlify-redirect-parser-2.4.0.tgz#421382a2401e5152e21e9622a0091422ee5af4f0"
-  integrity sha512-QmYMQzfJRhN/gXFzITT0+fnNSBjADDzodbn6mPHFAyJ6J8kfePJ0o0mhSB70QVzq/uVR2Y9hJVAfkxbwZHfuoA==
+netlify-redirect-parser@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/netlify-redirect-parser/-/netlify-redirect-parser-2.5.0.tgz#9110c567f2c4bbc5dacf34dc8976b2b77ca303b6"
+  integrity sha512-pF8BiOr3Pa4kQLLiOu53I0d30EIUDM0DYqYvCQmKD96cMX2qLh/QsxT0Zh18IrL5a0IWQ236/o76lTe0yEEw6w==
   dependencies:
-    "@netlify/config" "^0.9.1"
+    "@netlify/config" "^0.11.5"
+    lodash.isplainobject "^4.0.6"
 
 netlify-redirector@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/netlify-redirector/-/netlify-redirector-0.2.0.tgz#2037bf92520459277c9ae17f46e4df56104cd787"
   integrity sha512-5SSUu++MXvE/tik90Hx7lzISBHCl5k4TqpVeTuBEoHp5K7uWitY7c3MjPNiY3kB83GSZiTNLbuIY7bo6mpyU3Q==
 
-netlify@^4.0.5:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-4.0.5.tgz#858088f7a641cfcdcb9719cbdbdb72ec06e7bd05"
-  integrity sha512-UEo/yNCLh7VVpTIO2ZKxppjBlhIOnfVwWUDZ+BBTC6SCZD77U4WVjbgSvFYroqekjiBug/kjYGKTBPI+dp7gPQ==
+netlify@^4.1.2, netlify@^4.1.3:
+  version "4.1.3"
+  resolved "https://registry.yarnpkg.com/netlify/-/netlify-4.1.3.tgz#aa8ecfa8504c13a6dc38df9a9229d686398cd7e3"
+  integrity sha512-aqPU5Jc07UPZdXOO/81aY200m8r1a30yFtK+iOWNybZWdoE5MXm8QRRX8zbJoncWcZ74J/IZxfm7Vn/C92yGHw==
   dependencies:
     "@netlify/open-api" "^0.13.2"
-    "@netlify/zip-it-and-ship-it" "^0.4.0-14"
+    "@netlify/zip-it-and-ship-it" "^0.4.0-17"
     backoff "^2.5.0"
     clean-deep "^3.3.0"
     filter-obj "^2.0.1"
@@ -14829,6 +14813,13 @@ resolve@^1.1.7, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.15.1, resolve@^1.3.
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.15.1.tgz#27bdcdeffeaf2d6244b95bb0f9f4b4653451f3e8"
   integrity sha512-84oo6ZTtoTUpjgNEr5SJyzQhzL72gaRodsSfyxC/AXRvwu0Yse9H8eF9IpGo7b8YetZhlI6v7ZQ6bKBFV/6S7w==
+  dependencies:
+    path-parse "^1.0.6"
+
+resolve@^2.0.0-next.1:
+  version "2.0.0-next.1"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-2.0.0-next.1.tgz#4d96ccb89bf82d54ab037241ae053db4e92bb5f1"
+  integrity sha512-ZGTmuLZAW++TDjgslfUMRZcv7kXHv8z0zwxvuRWOPjnqc56HVsn1lVaqsWOZeQ8MwiilPVJLrcPVKG909QsAfA==
   dependencies:
     path-parse "^1.0.6"
 
