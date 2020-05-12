@@ -84,6 +84,7 @@ module.exports = {
   },
   plugins: [
     'babel-preset-gatsby',
+    'gatsby-plugin-preact',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-yaml',
     {
