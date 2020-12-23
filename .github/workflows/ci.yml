@@ -7,7 +7,7 @@ jobs:
 
     steps:
       - name: Checkout reposistory
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
       - name: Checkout submodules
         uses: textbook/git-checkout-submodule-action@master
       - uses: actions/setup-node@v1
