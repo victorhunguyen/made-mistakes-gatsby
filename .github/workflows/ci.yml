@@ -42,6 +42,10 @@ jobs:
           key: ${{ runner.os }}-public-gatsby
           restore-keys: |
             ${{ runner.os }}-public-gatsby
+      - run: npm install -g gatsby-cli
+        name: Install Gatsby CLI
+      - run: npm install -g netlify-cli
+        name: Install Netlify CLI
       - run: yarn install --pure-lockfile
         name: Install dependencies
       - run: yarn build --log-pages
