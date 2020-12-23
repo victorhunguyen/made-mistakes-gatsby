@@ -1,5 +1,4 @@
 name: Node.js CI
-
 on: [push]
 
 jobs:
@@ -7,15 +6,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout reposistory
+        uses: actions/checkout@master
+      - name: Checkout submodules
+        uses: textbook/git-checkout-submodule-action@master
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-
       - name: Yarn cache directory
         id: yarn-cache-dir
         run: echo "::set-output name=dir::$(yarn cache dir)"
-
       - name: Yarn cache
         uses: actions/cache@v1
         id: yarn-cache
@@ -24,10 +24,9 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-
       # In order to make gatsby incremental build works, it's necessary .cache
       # and public folder.
-      - name: Gatsby Cache Folder
+      - name: Gatsby cache folder
         uses: actions/cache@v1
         id: gatsby-cache-folder
         with:
@@ -35,8 +34,7 @@ jobs:
           key: ${{ runner.os }}-cache-gatsby
           restore-keys: |
             ${{ runner.os }}-cache-gatsby
-
-      - name: Gatsby Public Folder
+      - name: Gatsby public folder
         uses: actions/cache@v1
         id: gatsby-public-folder
         with:
@@ -44,10 +42,8 @@ jobs:
           key: ${{ runner.os }}-public-gatsby
           restore-keys: |
             ${{ runner.os }}-public-gatsby
-
       - run: yarn install --pure-lockfile
         name: Install dependencies
-
       - run: yarn build --log-pages
         name: Build
         env:
@@ -56,7 +52,6 @@ jobs:
           GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
           NODE_ENV: production
           ENVIRONMENT: ${{ contains(github.ref, 'master') && 'production' || 'staging'}}
-
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v1.0
         with:
