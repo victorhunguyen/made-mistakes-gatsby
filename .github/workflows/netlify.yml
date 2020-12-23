@@ -1,11 +1,12 @@
 name: Deploy to Netlify
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/master'
-
     steps:
       - name: Checkout reposistory
         uses: actions/checkout@v2
