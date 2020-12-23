@@ -22,7 +22,7 @@ And if that wasn't enough to keep me busy --- I'm also the father of [twin girls
   <a href="/paperfaces/rosebuds-2-portrait/">
     <img src="../images/paperfaces-rosebuds-2-900.jpg" alt="Everly and Chloe iPad Paper drawing">
   </a>
-  <figcaption>Self portrait and my 2 little rosebuds drawn with Paper for iOS.</figcaption>
+  <figcaption>Self portrait of moi and my 2 little rosebuds drawn with Paper for iOS.</figcaption>
 </figure>
 
 <figure>
