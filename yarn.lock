@@ -15071,10 +15071,10 @@ querystringify@^2.1.1:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
   integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
-rambdax@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/rambdax/-/rambdax-3.7.0.tgz#bc89ced092f95521555eb24fe0a29039807a4756"
-  integrity sha512-EaV46HD0sqoFGmm0BT7cMSUXJw0l+iMCH52CkhAuByJNLC+WXE13KgxRd5UsnwdLg/tEskgPADYacOuR0zVa9Q==
+rambdax@^7.1.0:
+  version "7.1.0"
+  resolved "https://registry.yarnpkg.com/rambdax/-/rambdax-7.1.0.tgz#138bc13b3dbe445f635e1e3bd94bc6ae24827fe2"
+  integrity sha512-U/fBKF2IrHTLaqCsshQ948fXNrigfU0aE4Cl18y/BqkGM4E/Yg8XYKuAzghlCVq1ybPDJdq8HbGCcnuS8c6CEg==
 
 random-bytes@~1.0.0:
   version "1.0.0"
